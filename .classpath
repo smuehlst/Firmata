@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="Firmata/src/main/java"/>
-	<classpathentry kind="src" path="FirmataTests/src/main/java"/>
-	<classpathentry kind="src" path="FirmataTests/src/test/java"/>
-	<classpathentry kind="src" path="IndepProcessingSerial/src/main/java"/>
-	<classpathentry kind="src" path="ProcessingSerial/src/main/java"/>
+	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="src" path="Serial/src/main/java"/>
-	<classpathentry kind="src" path="Serial/src/test/java"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="slf4j-api-1.7.6.jar"/>
-	<classpathentry kind="lib" path="slf4j-simple-1.7.6.jar"/>
-	<classpathentry kind="lib" path="RXTXcomm.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="lib/slf4j-android-1.6.1-RC1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
