@@ -5,16 +5,11 @@ Firmata 2.2 pure Java implementation
 
 Licensed under Apache License 2.0
 
-Forked by Stephan Muehlstrasser
+Forked by Stephan Muehlstrasser for using it under Android
 https://github.com/smuehlst/Firmata
 
-Build notes for Eclipse:
+Build notes for Android with Eclipse:
 
-1) Downloaded processing-2.1.1-windows32.zip and unpacked it
-2) Run install_processing_core.bat and install_processing_serial.bat
-   from ProcessingSerial/res in root directory of unpacked
-   processing-2.1.1-windows32 directory
-3) Build with Maven Eclipse integration (goal "package")
-4) Use .jar files in "target" directories for projects, plus
-   a) RXTXcomm.jar and rxtxSerial.dll from Arduino IDE
-   b) slf4j-api-1.7.6.jar and slf4j-simple-1.7.6.jar
+Download slf4j-android-1.6.1-RC1.jar from http://www.slf4j.org/android/
+and save it to the "lib" subdirectory
+
